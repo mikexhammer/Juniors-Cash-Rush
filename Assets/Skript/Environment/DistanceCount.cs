@@ -9,7 +9,7 @@ public class DistanceCount : MonoBehaviour
     [SerializeField][Tooltip("Change Speed so it fits to the speed of the player")] public float distanceSpeed = 0.25f;
     public GameObject distanceText; 
     private int distanceCounter;
-    private bool isRunning;
+    public static bool isRunning;
     
     void Update()
     {
