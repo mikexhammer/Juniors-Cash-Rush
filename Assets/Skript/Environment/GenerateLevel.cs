@@ -5,10 +5,11 @@ using UnityEngine;
 public class GenerateLevel : MonoBehaviour
 {
     public GameObject[] sections;
-    public int zPos = 50; // 50 is the length of the section
+    [Header("Set secLength to the length of the section")]
     [SerializeField] public int secLength = 50;
-    public bool creatingSections = false;
-    public int secNum;
+    private int zPos = 50; // 50 is the length of the section
+    private bool creatingSections = false;
+    private int secNum;
     
     // Update is called once per frame
     void Update()
