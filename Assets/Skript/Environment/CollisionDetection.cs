@@ -8,7 +8,7 @@ public class CollisionDetection : MonoBehaviour
 {
     [Header("Set Player, FallDown, CrashSound and MainCamera")]
     public GameObject player;
-    public GameObject fallDown;
+    public GameObject stumbleAnimation;
     public GameObject crashSound;
     public GameObject mainCamera; 
     public GameObject levelControl; 
@@ -16,7 +16,7 @@ public class CollisionDetection : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Cut off the PlayerMovement script on collision with an obstacle
-        fallDown.GetComponent<Animator>().Play("Stumble Backwards");
+        stumbleAnimation.GetComponent<Animator>().Play("Stumble Backwards");
         while (player.transform.position.y > 1.25f)
         {
             player.transform.Translate(Time.deltaTime * -0.1f * Vector3.up, Space.World);

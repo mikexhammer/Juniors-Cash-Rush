@@ -10,8 +10,10 @@ public class GenerateLevel : MonoBehaviour
     private int zPos = 50; // 50 is the length of the section
     private bool creatingSections = false;
     private int secNum;
-    
-    // Update is called once per frame
+
+    [Header("Set time to generate new section")]
+    public int generateAfterSeconds = 6;
+
     void Update()
     {
         if (creatingSections == false)
@@ -23,11 +25,10 @@ public class GenerateLevel : MonoBehaviour
     
     IEnumerator GenerateSections()
     {
-        secNum = Random.Range(0, 3);
+        secNum = Random.Range(0, 6);
         Instantiate(sections[secNum], new Vector3(0, 0, zPos), Quaternion.identity);
-        yield return new WaitForSeconds(0.25f);
         zPos += secLength;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(generateAfterSeconds);
         creatingSections = false;
     }
 }
