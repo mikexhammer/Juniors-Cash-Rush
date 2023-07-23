@@ -2,20 +2,6 @@
 Eine Ausarbeitung von Mike Hammer.
 English below.
 
-
-   $$$$$\                     $$\                                      $$$$$$\                      $$\             $$$$$$$\                      $$\       
-   \__$$ |                    \__|                                    $$  __$$\                     $$ |            $$  __$$\                     $$ |      
-      $$ |$$\   $$\ $$$$$$$\  $$\  $$$$$$\   $$$$$$\   $$$$$$$\       $$ /  \__| $$$$$$\   $$$$$$$\ $$$$$$$\        $$ |  $$ |$$\   $$\  $$$$$$$\ $$$$$$$\  
-      $$ |$$ |  $$ |$$  __$$\ $$ |$$  __$$\ $$  __$$\ $$  _____|      $$ |       \____$$\ $$  _____|$$  __$$\       $$$$$$$  |$$ |  $$ |$$  _____|$$  __$$\ 
-$$\   $$ |$$ |  $$ |$$ |  $$ |$$ |$$ /  $$ |$$ |  \__|\$$$$$$\        $$ |       $$$$$$$ |\$$$$$$\  $$ |  $$ |      $$  __$$< $$ |  $$ |\$$$$$$\  $$ |  $$ |
-$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |$$ |  $$ |$$ |       \____$$\       $$ |  $$\ $$  __$$ | \____$$\ $$ |  $$ |      $$ |  $$ |$$ |  $$ | \____$$\ $$ |  $$ |
-\$$$$$$  |\$$$$$$  |$$ |  $$ |$$ |\$$$$$$  |$$ |      $$$$$$$  |      \$$$$$$  |\$$$$$$$ |$$$$$$$  |$$ |  $$ |      $$ |  $$ |\$$$$$$  |$$$$$$$  |$$ |  $$ |
- \______/  \______/ \__|  \__|\__| \______/ \__|      \_______/        \______/  \_______|\_______/ \__|  \__|      \__|  \__| \______/ \_______/ \__|  \__|
-                                                                                                                                                            
-                                                                                                                                                            
-                                                                                                                                                            
-ASCII Code by https://patorjk.com/
-
 ## Inhaltsverzeichnis
 1. [Beschreibung](#beschreibung)
 2. [Steuerung](#steuerung)
@@ -23,7 +9,7 @@ ASCII Code by https://patorjk.com/
 4. [Screenshots](#screenshots)
 5. [Installation](#installation)
 6. [Quellen](#quellen) 
-7. [Quellcodestruktur] (#quellcodestruktur)
+7. [Quellcodestruktur](#quellcodestruktur)
 
 ## Beschreibung
 "Juniors Cash Rush" ist ein Endless Runner Spiel, das im Rahmen des Moduls Spieleprogrammierung an der Hochschule Osnabrück entwickelt wurde. Inspiriert von beliebten Endless Runner-Spielen wie Temple Run, Subway Surfer und Timmy and Mouse, bietet "Juniors Cash Rush" ein spannendes Spielerlebnis, bei dem der Spieler Hindernissen ausweichen und Münzen sammeln muss, um seinen Highscore zu verbessern. Das Spiel wird zudem herausfordernder, da es teilweise dunkel wird und die Sicht eingeschränkt ist.
@@ -64,20 +50,20 @@ Also schnüre deine Laufschuhe, halte die Augen offen und stürze dich in "Junio
 - Inspiriert von Subway Surfers: [https://www.subwaysurfers.com](https://www.subwaysurfers.com)
 - Inspiriert von Timmy and Mouse: [https://www.youtube.com/watch?v=fBK2oJdBGB0]
 - Verwendete Assets:
-[https://assetstore.unity.com/packages/3d/props/gold-coins-1810]
-[https://assetstore.unity.com/packages/3d/simple-sky-cartoon-assets-42373]
-[https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400]
-[https://assetstore.unity.com/packages/3d/environments/lowpoly-rocks-137970]
-[https://assetstore.unity.com/packages/3d/vegetation/plants/lowpoly-flowers-47083]
-[https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-environment-pack-99479]
+
+https://assetstore.unity.com/packages/3d/props/gold-coins-1810
+https://assetstore.unity.com/packages/3d/simple-sky-cartoon-assets-42373
+https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400
+https://assetstore.unity.com/packages/3d/environments/lowpoly-rocks-137970
+https://assetstore.unity.com/packages/3d/vegetation/plants/lowpoly-flowers-47083
+https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-environment-pack-99479
 - Character und Animation:
-[https://www.mixamo.com]
+https://www.mixamo.com
 - Ton und Musik:
-[https://getsoundly.com]
+https://getsoundly.com
 
 
 ## Quellcodestruktur
-
 Das Projekt "Juniors Cash Rush" besteht aus verschiedenen Abschnitten, die den Quellcode organisieren und die Funktionalität des Spiels gewährleisten. Die wichtigsten Abschnitte sind Levelhandler, Player, StartSegment und Segments. Jeder dieser Abschnitte spielt eine entscheidende Rolle im Spiel und ist verantwortlich für verschiedene Aspekte des Gameplays.
 
 ### Levelhandler
@@ -152,18 +138,18 @@ So, lace up your running shoes, keep your eyes peeled, and dive into "Juniors Ca
 ## Sources
 - Inspired by Temple Run: [https://www.imangi.com/temple-run](https://www.imangi.com/temple-run)
 - Inspired by Subway Surfers: [https://www.subwaysurfers.com](https://www.subwaysurfers.com)
-- Inspired by Timmy and Mouse: [https://www.youtube.com/watch?v=fBK2oJdBGB0]
+- Inspired by Timmy and Mouse: https://www.youtube.com/watch?v=fBK2oJdBGB0
 - Used Assets:
-[https://assetstore.unity.com/packages/3d/props/gold-coins-1810]
-[https://assetstore.unity.com/packages/3d/simple-sky-cartoon-assets-42373]
-[https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400]
-[https://assetstore.unity.com/packages/3d/environments/lowpoly-rocks-137970]
-[https://assetstore.unity.com/packages/3d/vegetation/plants/lowpoly-flowers-47083]
-[https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-environment-pack-99479]
+https://assetstore.unity.com/packages/3d/props/gold-coins-1810
+https://assetstore.unity.com/packages/3d/simple-sky-cartoon-assets-42373
+https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400
+https://assetstore.unity.com/packages/3d/environments/lowpoly-rocks-137970
+https://assetstore.unity.com/packages/3d/vegetation/plants/lowpoly-flowers-47083
+https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-environment-pack-99479
 - Charactre and animations:
-[https://www.mixamo.com]
+https://www.mixamo.com
 - Sound:
-[https://getsoundly.com]
+https://getsoundly.com
 
 ## Code Structure
 
