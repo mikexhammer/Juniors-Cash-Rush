@@ -18,31 +18,14 @@ public class PlayerMove : MonoBehaviour
     
     void Update()
     {
-        transform.Translate( Time.deltaTime * moveSpeed * Vector3.forward, Space.World);
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            if (this.gameObject.transform.position.x > LevelBoundary.leftSide)
-            {
-                transform.Translate(Time.deltaTime * leftRightSpeed * Vector3.left, Space.World);
-            }
-        }
-        
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            if (this.gameObject.transform.position.x < LevelBoundary.rightSide)
-            {
-                transform.Translate(Time.deltaTime * leftRightSpeed * -1 * Vector3.left, Space.World);
-            }
-            
-        }
-        
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
-        {
-            isGrounded = false;
-            player.GetComponent<Animator>().Play("Jump");
-            StartCoroutine(Jumping());
-        }
-        
+        MoveForward();
+        MoveLeftRight();
+        MoveUp();
+        Jump();
+    }
+
+    private void Jump()
+    {
         if (!isGrounded)
         {
             if (!isFalling)
@@ -54,6 +37,41 @@ public class PlayerMove : MonoBehaviour
                 transform.Translate(Time.deltaTime * -jumpHeigt * Vector3.up, Space.World);
             }
         }
+    }
+
+    private void MoveUp()
+    {
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) &&
+            isGrounded)
+        {
+            isGrounded = false;
+            player.GetComponent<Animator>().Play("Jump");
+            StartCoroutine(Jumping());
+        }
+    }
+
+    private void MoveLeftRight()
+    {
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            if (this.gameObject.transform.position.x > LevelBoundary.leftSide)
+            {
+                transform.Translate(Time.deltaTime * leftRightSpeed * Vector3.left, Space.World);
+            }
+        }
+
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            if (this.gameObject.transform.position.x < LevelBoundary.rightSide)
+            {
+                transform.Translate(Time.deltaTime * leftRightSpeed * -1 * Vector3.left, Space.World);
+            }
+        }
+    }
+
+    private void MoveForward()
+    {
+        transform.Translate(Time.deltaTime * moveSpeed * Vector3.forward, Space.World);
     }
 
     IEnumerator Jumping()

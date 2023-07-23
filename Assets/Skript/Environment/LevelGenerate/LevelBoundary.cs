@@ -10,7 +10,7 @@ public class LevelBoundary : MonoBehaviour
     private float internalLeft;
     private float internalRight;
 
-    void Update()
+    void Start()
     {
         internalLeft = leftSide;
         internalRight = rightSide;

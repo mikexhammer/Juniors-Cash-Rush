@@ -5,11 +5,14 @@ public class PauseHandler : MonoBehaviour
 {
     
     public GameObject pauseMenu;
+    public GameObject endMenu;
+    
 
     public bool isPaused;
     // Start is called before the first frame update
     void Start()
     {
+        endMenu.SetActive(false);
         pauseMenu.SetActive(false);
         isPaused = false;
     }
@@ -18,7 +21,7 @@ public class PauseHandler : MonoBehaviour
     void Update()
     {
         //if player presses escape, pause the game
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !endMenu.activeSelf)
         {
             if (isPaused)
             {

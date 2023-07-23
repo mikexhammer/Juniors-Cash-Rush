@@ -13,7 +13,7 @@ public class StumbleCollisionDetection: MonoBehaviour
     public GameObject crashSound;
     public GameObject mainCamera; 
     public GameObject levelControl; 
-
+    public GameObject endMenu;
     private void OnTriggerEnter(Collider other)
     {
         stumbleAnimation.GetComponent<Animator>().Play("Stumble Backwards");
@@ -35,7 +35,7 @@ public class StumbleCollisionDetection: MonoBehaviour
     
     IEnumerator LoadGameOver()
     {
-        yield return new WaitForSeconds(5);
-        SceneManager.LoadScene(0);
+        yield return new WaitForSeconds(2);
+        endMenu.SetActive(true);
     }
 }

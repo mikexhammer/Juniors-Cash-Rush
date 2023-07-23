@@ -12,7 +12,8 @@ public class FallCollisionDetection: MonoBehaviour
     public GameObject stumbleAnimation;
     public GameObject crashSound;
     public GameObject mainCamera; 
-    public GameObject levelControl; 
+    public GameObject levelControl;
+    public GameObject endMenu;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -35,7 +36,7 @@ public class FallCollisionDetection: MonoBehaviour
     
     IEnumerator LoadGameOver()
     {
-        yield return new WaitForSeconds(5);
-        SceneManager.LoadScene(0);
+        yield return new WaitForSeconds(2);
+        endMenu.SetActive(true);
     }
 }
