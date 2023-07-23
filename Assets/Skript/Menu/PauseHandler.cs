@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -53,7 +50,7 @@ public class PauseHandler : MonoBehaviour
         Time.timeScale = 1;
         isPaused = false;
         pauseMenu.SetActive(false);
-        Application.LoadLevel(Application.loadedLevel);
+        SceneManager.LoadScene(1);
     }
     
     public void MainMenu()

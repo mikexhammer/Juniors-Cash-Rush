@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DeleteSection : MonoBehaviour
 {
-    private string name;
+    private string mName;
     private string toDestroy = "LevelSection(Clone)";
     [Header("Define time to destroy section after it has spawned")]
     public int destroyAfterSeconds = 30;
@@ -12,8 +12,8 @@ public class DeleteSection : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        name = transform.name;
-        if (name == toDestroy)
+        mName = transform.name;
+        if (mName == toDestroy)
         {
             StartCoroutine(Delete());
         }
