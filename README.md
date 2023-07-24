@@ -36,7 +36,9 @@ Also schnüre deine Laufschuhe, halte die Augen offen und stürze dich in "Junio
 - Dunkelheit: In einigen Abschnitten wird es dunkel, was die Sicht erschwert und das Spiel schwieriger macht. Meistere die Kunst des Laufens im Dunkeln, um erfolgreich zu sein!
 
 ## Screenshots
-(Einfügen von Screenshots, die das Gameplay und die visuelle Gestaltung des Spiels zeigen.)
+![Spiele als Junior](./screenshots/ty.png)
+![Navigiere durch zufällig generiertes Terrain](./screenshots/level.png)
+![Starte dein Spiel!](./screenshots/menu.png)
 
 ## Installation
 1. Lade die neueste Version von "Juniors Cash Rush" von der [GitHub-Seite](https://github.com/mikexhammer/Planet-Runner) herunter.
@@ -126,7 +128,9 @@ So, lace up your running shoes, keep your eyes peeled, and dive into "Juniors Ca
 - Darkness: In some sections, the game will become dark, reducing visibility and making it more challenging. Master the art of running in the dark to succeed!
 
 ## Screenshots
-(Insert some screenshots showcasing the gameplay and visual design of the game.)
+![Play as Junior](./screenshots/ty.png)
+![Navigate trough randomized terrain!](./screenshots/level.png)
+![Start your game now.](./screenshots/menu.png)
 
 ## Installation
 1. Download the latest version of "Juniors Cash Rush" from the [GitHub page](https://github.com/mikexhammer/Planet-Runner).
