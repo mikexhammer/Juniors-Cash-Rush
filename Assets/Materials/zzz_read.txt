@@ -1,0 +1,1 @@
+For worldBend-effect you have to mark all materials and change the "amound"
