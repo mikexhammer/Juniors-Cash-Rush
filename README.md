@@ -36,12 +36,12 @@ Also schnüre deine Laufschuhe, halte die Augen offen und stürze dich in "Junio
 - Dunkelheit: In einigen Abschnitten wird es dunkel, was die Sicht erschwert und das Spiel schwieriger macht. Meistere die Kunst des Laufens im Dunkeln, um erfolgreich zu sein!
 
 ## Screenshots
-![Spiele als Junior](./screenshots/ty.png)
-![Navigiere durch zufällig generiertes Terrain](./screenshots/level.png)
-![Starte dein Spiel!](./screenshots/menu.png)
+![Spiele als Junior](./Screenshots/ty.png)
+![Navigiere durch zufällig generiertes Terrain](./Screenshots/level.png)
+![Starte dein Spiel!](./Screenshots/menu.png)
 
 ## Installation
-1. Lade die neueste Version von "Juniors Cash Rush" von der [GitHub-Seite](https://github.com/mikexhammer/Planet-Runner) herunter.
+1. Lade die neueste Version von "Juniors Cash Rush" von der [GitHub-Seite](https://github.com/mikexhammer/Juniors-Cash-Rush) herunter.
 2. Entpacke das Archiv an einem Ort deiner Wahl.
 3. Öffne Unity und wähle "Open Project". Navigiere zu dem Ort, an dem du das Spiel entpackt hast.
 4. Nachdem das Projekt geladen wurde, navigiere zum Ordner "Scenes" und öffne die Hauptspiel-Szene.
@@ -128,12 +128,12 @@ So, lace up your running shoes, keep your eyes peeled, and dive into "Juniors Ca
 - Darkness: In some sections, the game will become dark, reducing visibility and making it more challenging. Master the art of running in the dark to succeed!
 
 ## Screenshots
-![Play as Junior](./screenshots/ty.png)
-![Navigate trough randomized terrain!](./screenshots/level.png)
-![Start your game now.](./screenshots/menu.png)
+![Play as Junior](./Screenshots/ty.png)
+![Navigate trough randomized terrain!](./Screenshots/level.png)
+![Start your game now.](./Screenshots/menu.png)
 
 ## Installation
-1. Download the latest version of "Juniors Cash Rush" from the [GitHub page](https://github.com/mikexhammer/Planet-Runner).
+1. Download the latest version of "Juniors Cash Rush" from the [GitHub page](https://github.com/mikexhammer/Juniors-Cash-Rush).
 2. Extract the archive to a location of your choice.
 3. Open Unity and select "Open Project." Navigate to the location where you extracted the game.
 4. Once the project is loaded, go to the "Scenes" folder and open the main game scene.
