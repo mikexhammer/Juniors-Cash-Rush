@@ -50,7 +50,7 @@ Also schnüre deine Laufschuhe, halte die Augen offen und stürze dich in "Junio
 ## Quellen
 - Inspiriert von Temple Run: [https://www.imangi.com/temple-run](https://www.imangi.com/temple-run)
 - Inspiriert von Subway Surfers: [https://www.subwaysurfers.com](https://www.subwaysurfers.com)
-- Inspiriert von Timmy and Mouse: [https://www.youtube.com/watch?v=fBK2oJdBGB0]
+- Inspiriert von TIMMY & MOUSEY: https://www.youtube.com/watch?v=fBK2oJdBGB0
 - Verwendete Assets:
 
 https://assetstore.unity.com/packages/3d/props/gold-coins-1810
@@ -142,7 +142,7 @@ So, lace up your running shoes, keep your eyes peeled, and dive into "Juniors Ca
 ## Sources
 - Inspired by Temple Run: [https://www.imangi.com/temple-run](https://www.imangi.com/temple-run)
 - Inspired by Subway Surfers: [https://www.subwaysurfers.com](https://www.subwaysurfers.com)
-- Inspired by Timmy and Mouse: https://www.youtube.com/watch?v=fBK2oJdBGB0
+- Inspired by TIMMY & MOUSEY: https://www.youtube.com/watch?v=fBK2oJdBGB0
 - Used Assets:
 https://assetstore.unity.com/packages/3d/props/gold-coins-1810
 https://assetstore.unity.com/packages/3d/simple-sky-cartoon-assets-42373

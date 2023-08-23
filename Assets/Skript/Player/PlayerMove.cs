@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private float leftRightSpeed = 4.0f;
     [Header("Jump height and time")]
     [SerializeField] private float jumpHeigt = 5.0f;
-    [SerializeField] [Tooltip("This will the airtime")] private float jumpTime = 1f;
+    [SerializeField] [Tooltip("This will be the airtime")] private float jumpTime = 1f;
     private bool isGrounded = true;
     private bool isFalling = false;
     
@@ -80,6 +81,7 @@ public class PlayerMove : MonoBehaviour
         isFalling = true;
         yield return new WaitForSeconds(jumpTime/2);
         isGrounded = true;
+        if(transform.position.y > 1.75) transform.position = new Vector3(transform.position.x, 1.75f, transform.position.z);
         isFalling = false;
     }
 }
